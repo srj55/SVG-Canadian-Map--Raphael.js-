@@ -17,7 +17,6 @@ Usage:
     var paper = new ScaleRaphael(container, 950, 650);
     var map = paper.CDNMap();
     paper.scaleAll(yourIntendedMapWidth/map.width);
-   43.6481° N, 79.4042° W
    
     map.plot(43.6481,79.4042, "Toronto ON");
     map.darkenprovince('ON', 0.07);
